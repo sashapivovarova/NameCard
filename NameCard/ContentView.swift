@@ -13,6 +13,9 @@ struct ContentView: View {
             Color(red: 0.09, green: 0.63, blue: 0.52)
                 .edgesIgnoringSafeArea(.all)
             Text("Hello, world!")
+                .font(Font.custom("Pacifico-Regular", size: 40))
+                .bold()
+                .foregroundColor(.white)
         }
     }
 }
