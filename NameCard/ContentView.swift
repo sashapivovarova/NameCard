@@ -26,6 +26,9 @@ struct ContentView: View {
                 Text("iOS Developer")
                     .font(.system(size: 25))
                     .foregroundColor(.white)
+                Divider()
+                InfoView(imageName: "phone.fill", text: "+1 1234-1234")
+                InfoView(imageName: "envelope.fill", text: "abc@amail.com")
             }
         }
     }
